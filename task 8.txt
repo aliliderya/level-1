@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Kvadratin terefini daxil edin: ";
+    cin >> a;
+
+    int sahe = a * a;
+    int perimetr = 4 * a;
+
+    cout << "sahesi: " << sahe << endl;
+    cout << "perimetri: " << perimetr << endl;
+    
+    return 0;
+}

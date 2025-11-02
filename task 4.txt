@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double pi =3.14;
+    int r = 3 ;
+   double  sahe = pi * r * r ;
+   double cevre = 2 * pi * r ;
+   cout << "sahe:" << sahe << endl ;
+   cout << "cevre:" <<cevre << endl ;
+}
